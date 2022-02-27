@@ -11,7 +11,8 @@ import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
   
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LITERA]) 
-  
+server = app.server
+
 app.layout = dbc.Container([
     
 html.Div(children=[ 
